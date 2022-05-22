@@ -97,7 +97,7 @@ header.sticky .logo{
 	background-color: #313131;
 	background-size: cover;
 	width: 100%;
-	height: 2400px;
+	height: 1600px;
 
 }
 .frame2{
@@ -230,7 +230,7 @@ header.sticky .logo{
 	padding-top: 55px;
 }
 .backside{
-	margin-top: 3000px;
+	margin-top: 2200px;
 	background: url(img/image6.svg);
 	width: 100%;
 	height: 1080px;
@@ -241,7 +241,7 @@ header.sticky .logo{
 	background-attachment: fixed;
 }
 .banner3{
-	margin-top: 3700px;
+	margin-top: 2900px;
 	position: absolute;
 	z-index: 2;
 	background-image: url(img/Component3.svg);
@@ -323,7 +323,7 @@ header.sticky .logo{
 	display: inline-block;
 }
 .backside2{
-	margin-top: 4400px;
+	margin-top: 3900px;
 	background: url(img/image5.svg);
 	width: 100%;
 	height: 1080px;
@@ -334,7 +334,7 @@ header.sticky .logo{
 	background-attachment: fixed;
 }
 .frame4{
-	margin-top: 5400px;
+	margin-top: 4500px;
 	position: absolute;
 	z-index: 2;
 	background-color: #313131;
@@ -354,7 +354,7 @@ header.sticky .logo{
 }
 .frame5{
 	display: inline-flex;
-	margin-top: 7200px;
+	margin-top: 6300px;
 	position: absolute;
 	z-index: 2;
 	background-color: #fff;

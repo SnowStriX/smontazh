@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<a href="#" class="logo"><img src="img/logo2.png" width="52px"></a>
+		<ul>
+			<li><a href="#">Главная</a></li>
+			<li><a href="#">Услуги</a></li>
+			<li><a href="#">О нас</a></li>
+			<li><a href="#">Проекты</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+	</header>
+		<section class="banner">
+				<div class="frame1">
+				<h1>Мы строим мечты</h1>
+				<p>ваш лучший партнер по строительству и инженерным системам</p>
+				</div>
+			</section>
+			<script type="text/javascript">
+				window.addEventListener("scroll",function(){
+					var header = document.querySelector("header");
+					header.classList.toggle('sticky',window.scrollY > 0);
+				})
+			</script>
+			<div class="banner2">
+				
+					<div class="frame2">
+						<section class="text">
+							<div class="zaglav"><h2>Работы</h2></div>
+							<div class="text1"><p>реализуем любые по сложности проекты</p></div>
+						</section>
+						
+						<div class="block1">
+							<p>Проектирование</p>
+							<a href="#"><img src="img/image3.svg" alt=""></a>
+						</div>
+						<div class="block2">
+							<p>Строительство</p>
+							<a href="#"><img src="img/image31.svg" alt=""></a>
+						</div>
+						<div class="block3">
+							<p>Отделочные работы</p>
+							<a href="#"><img src="img/image32.svg" alt=""></a>
+						</div>
+						<div class="block4">
+							<p>Техническое обслуживание</p>
+							<a href="#"><img src="img/image33.svg" alt=""></a>
+						</div>
+						<div class="block5">
+							<p>Ландшафтные работы</p>
+							<a href="#"><img src="img/image34.svg" alt=""></a>
+						</div>
+				</div>
+			</div>
+					<div class="backside"></div>
+					<div class="banner3">
+						<div class="frame3">
+							<div class="text2">
+								<h3>О компании</h3>
+								<p>СервисМонтаж</p>
+							</div>
+							<div class="wrapper">
+								<section class="cont">
+									<p class="comment">специализированная компания в области проектирования, строительства объектов и инженерных систем с последующим техническим обслуживанием </p>					
+								</section>
+								<div class="comments">
+									<section class="com2">
+										<img src="img/Component1.svg" alt="" width="145px">
+										<p> наши сотрудники с многолетним опытом работы</p>
+									</section>
+									<section class="com3">
+										<img src="img/Vector.svg" alt="" width="">
+										<p> Более 100 проектов в портфолио</p>
+									</section>
+								</div>
+							</div>
+						</div>
+					</div>
+				<div class="backside2"></div>
+				<div class="frame4">
+					<div class="main"></div>
+				</div>
+				<div class="frame5">
+					<div class="text6">
+						<h4>Контакты</h4>
+						<p>Башня Федерация, ул. Пресненская наб. 12 Москва, 103073, Россия </p>
+						<p>info@smontazh.ooo</p>
+						<p>+7 985 537-34-20</p>
+					</div>
+					<form action="handler.php" method="POST">
+						<input type="text" name="Имя" class="name" placeholder="Имя">
+						<input type="text" name="Фамилия" id="name2" placeholder="Фамилия">
+						<input type="text" name="Эл.почта*" class="mail" placeholder="E-mail*">
+						<textarea>Сообщение</textarea>
+						<button>Отправить</button>
+					</form>
+				</div>
+
+
+	</div>
+
+</body>
+</html>

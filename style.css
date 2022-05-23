@@ -439,6 +439,7 @@ textarea{
 	padding: 3px;
 }
 button{
+	border: 0;
 	margin-left: 10px;
 	font-size: 16px;
 	font-weight: 400;

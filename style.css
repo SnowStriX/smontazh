@@ -138,7 +138,7 @@ header.sticky .logo{
 	font-size: 24px;
 	padding-bottom: 50px;
 }
-.block1{
+.block1 , .block2 , .block3 , .block4 , .block5{
 	margin:2%;
 	border-radius: 25px;
 	width: 430px;
@@ -147,89 +147,13 @@ header.sticky .logo{
 	display: inline-block;
 	box-shadow: 5px 10px 10px 8px #000;
 }
-.block1 p{
+.block1 p , .block2 p , .block3 p , .block4 p , .block5 p{
 	color: #000;
 	padding-top: 10%;
 	font-size: 28px ;
 	font-weight: 200;
 }
-.block1 a img{
-	width: 100%;
-	padding-top: 55px;
-}
-.block2{
-	margin: 2%;
-	border-radius: 25px;
-	width: 430px;
-	height: 380px;
-	background-color: #F1F1F1;
-	display: inline-block;
-	box-shadow: 5px 10px 10px 8px #000;
-}
-.block2 p{
-	color: #000;
-	padding-top: 10%;
-	font-size: 28px ;
-	font-weight: 200;
-}
-.block2 a img{
-	width: 100%;
-	padding-top: 55px;
-}
-.block3{
-	margin: 2%;
-	border-radius: 25px;
-	width: 430px;
-	height: 380px;
-	background-color: #F1F1F1;
-	display: inline-block;
-	box-shadow: 5px 10px 10px 8px #000;
-}
-.block3 p{
-	color: #000;
-	padding-top: 10%;
-	font-size: 28px ;
-	font-weight: 200;
-}
-.block3 a img{
-	width: 100%;
-	padding-top: 55px;
-}
-.block4{
-	margin: 2%;
-	border-radius: 25px;
-	width: 430px;
-	height: 380px;
-	background-color: #F1F1F1;
-	display: inline-block;
-	box-shadow: 5px 10px 10px 8px #000;
-}
-.block4 p{
-	color: #000;
-	padding-top: 10%;
-	font-size: 28px ;
-	font-weight: 200;
-}
-.block4 a img{
-	width: 100%;
-	padding-top: 55px;
-}
-.block5{
-	margin: 2%;
-	border-radius: 25px;
-	width: 430px;
-	height: 380px;
-	background-color: #F1F1F1;
-	display: inline-block;
-	box-shadow: 5px 10px 10px 8px #000;
-}
-.block5 p{
-	color: #000;
-	padding-top: 10%;
-	font-size: 28px ;
-	font-weight: 200;
-}
-.block5 a img{
+.block1 a img , .block2 a img , .block3 a img , .block4 a img , .block5 a img{
 	width: 100%;
 	padding-top: 55px;
 }

@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap');
+html{
+	scroll-behavior: smooth;
+}
 *{
 	margin: 0;
 	padding: 0;
@@ -138,7 +141,7 @@ header.sticky .logo{
 	font-size: 24px;
 	padding-bottom: 50px;
 }
-.block1 , .block2 , .block3 , .block4 , .block5{
+.block1{
 	margin:2%;
 	border-radius: 25px;
 	width: 430px;
@@ -147,13 +150,13 @@ header.sticky .logo{
 	display: inline-block;
 	box-shadow: 5px 10px 10px 8px #000;
 }
-.block1 p , .block2 p , .block3 p , .block4 p , .block5 p{
+.block1 p{
 	color: #000;
 	padding-top: 10%;
 	font-size: 28px ;
 	font-weight: 200;
 }
-.block1 a img , .block2 a img , .block3 a img , .block4 a img , .block5 a img{
+.block1 a img{
 	width: 100%;
 	padding-top: 55px;
 }

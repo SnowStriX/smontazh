@@ -156,7 +156,7 @@ header.sticky .logo{
 }
 .frame3{
 	width: 100%;
-	height: 1000px;
+	height: auto;
 	display: inline-block;
 }
 .content{
@@ -192,23 +192,24 @@ header.sticky .logo{
 	width: 100%;
 }
 .com img{
+	width: 18%;
 	float: left;
-	width: 25%;
 }
 .comments{
-	height: 80px;
-	display: inline-block;
+	height: auto;
+	display: inline-flex;
 	width: 100%;
 	margin-top: 20%;
 }
 .com{
-	margin-left: 5%;
-	height: 80px;
-	width: 370px;
+	margin-left: 2%;
+	width: 50%;
 	display: inline-block;
+	margin-bottom: 10%;
 }
 .com p{
-	font-size: 24px;
+	padding-left: 20%;
+	font-size: 18px;
 	font-weight: 200;
 }
 .frame4{

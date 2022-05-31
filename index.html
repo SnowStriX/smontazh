@@ -46,13 +46,23 @@
 	</div>
 	<div class="image"><img src="img/Component3.svg" alt=""></div>
 </div>
-<form action="php/sandmail.php" method="POST">
-		<input type="text" name="firstname" class="name" placeholder="Имя" required>
-		<input type="text" name="lastname" id="name2" placeholder="Фамилия" required>
+<footer>
+	<div class="text6">
+		<h4 id="4">Контакты</h4>
+		<p>Башня Федерация, ул. Пресненская наб. 12 Москва, 103073, Россия </p>
+		<p>info@smontazh.ooo</p>
+		<p>+7 985 537-34-20</p>
+	</div>
+	<form action="php/sandmail.php" method="POST">
+		<div style="display: flex; width: 100%; justify-content: space-between;">
+			<input type="text" name="firstname" class="name" placeholder="Имя" required>
+			<input type="text" name="lastname" id="name2" placeholder="Фамилия" required>
+		</div>
 		<input type="email" name="email" class="mail" placeholder="E-mail*" required>
 		<textarea name="message" placeholder="Сообщение"></textarea>
-	<button type="submit">Отправить</button>
-</form>
+		<button type="submit">Отправить</button>
+	</form>
+</footer>
 </body>
 
 <script src="js/index.js"></script>

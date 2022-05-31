@@ -212,6 +212,67 @@ header.sticky .logo{
 	font-size: 18px;
 	font-weight: 200;
 }
+.frame5{
+	margin: 3% 0;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	height: 900px;
+}
+.main p{
+	margin: 2% 0;
+	font-size: 36px;
+}
+.main{
+	margin: 3% 0;
+	color: #000;
+	background-color: #fff;
+	width: 90%;
+	height: 90%;
+	border-top-right-radius: 50px ;
+	border-bottom-right-radius: 50px;
+}
+.center{
+	margin-top: 10%;
+	margin-bottom: 3%;
+	height: 10%;
+	display: flex;
+}
+.blockleft{
+	margin: 3% 0;
+	text-align: left;
+	color: #000;
+	width: 60%;
+	height: 10%;
+}
+.blockleft p{
+	padding: 5% 0;
+}
+.blockright{
+	text-align: right;
+	color: #fff;
+	background-color: #313131;
+	width: 60%;
+	height: 20%	;
+	margin-left: 40%;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+.blockright p{
+	padding: 5% 0;
+}
+.center .block1{
+	display: inline-flex;
+}
+.block1 p{
+	margin: 0;
+	font-size: 20px;
+	width: 100%;
+}
+.block1 img{
+	margin: 0 3%;
+	width: 20%;
+}
 .frame4{
 	display: flex;
     flex-direction: column;

@@ -136,6 +136,13 @@ header.sticky .logo{
 	width: 100%;
 	height: 400px;
 }
+.backside2{
+	background-image: url(img/backside2.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 400px;
+}
 .frame3{
 	width: 100%;
 	height: 1000px;
@@ -281,4 +288,8 @@ footer{
 }
 .text6{
 	width: 40%;
+}
+.frame4{
+	height: 1000px;
+	background-color: #fff;
 }

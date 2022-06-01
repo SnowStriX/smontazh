@@ -109,7 +109,7 @@ header.sticky .logo{
 	font-weight:800;
 	border-bottom: 3px solid #EEBF00;
 	color: #fff;
-	width: 300px;
+	width: auto;
 }
 .conteiner{
 	margin: 3% 0;
@@ -297,7 +297,6 @@ header.sticky .logo{
     font-weight: 600;
 	color: #000;
 	border-bottom: 3px solid #EEBF00;
-	width: 450px;
 }
 .gallery{
 	margin-top: 10px;

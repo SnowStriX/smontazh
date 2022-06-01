@@ -1,1 +1,34 @@
-@media screen and (max-width:  1441px){
+@media screen and (max-width:  1025px){
+.backside , .backside2{
+	display: none;
+}
+header{
+	padding: 10px 20px;
+
+}
+a.logo img{
+	width: 32px;
+}
+.frame1 h1{
+	font-size: 28px;
+}
+.frame1 p{
+	font-size: 16px;
+}
+.frame3 , .frame4{
+	display: none;
+}
+.frame3mob {
+	display: flex;
+}
+.center .block1 p{
+	font-size: 5px;
+}
+footer{
+	display: inline-block;
+	justify-content: center;
+	height: auto;
+}
+form{
+	max-width: 540px;
+}

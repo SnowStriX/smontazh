@@ -75,7 +75,7 @@ header.sticky .logo{
 	background-size: 100%;
 	background-attachment: fixed;
 	color: #fff;
-	height: 900px;
+	height: auto;
 	width: 100%;
 }
 .frame1 h1{
@@ -86,6 +86,7 @@ header.sticky .logo{
 	font-weight: 600;
 }
 .frame1 p{
+	padding-bottom: 10%;
 	margin-left: 10%;
 	font-size: 25px;
 	font-weight: 400;
@@ -164,9 +165,8 @@ header.sticky .logo{
 }
 .content{
 	text-align: left;
-	margin-bottom: 5%;
 	color: #fff;
-	width: 50%;
+	width: 45%;
 	display: inline-block;
 }
 .content .heading2{
@@ -186,13 +186,13 @@ header.sticky .logo{
 	border-left: 3px solid #EEBF00;
 }
 .image{
+	margin-top: 2%;
 	float: right;
 	display: inline-block;
-	width: 50%;
+	width: 55%;
 	height: auto;
 }
 .image img{
-	margin-top: 12%;
 	width: 100%;
 }
 .com img{
@@ -216,6 +216,39 @@ header.sticky .logo{
 	margin-top: 3%;	
 	font-size: 24px;
 	font-weight: 400;
+}
+.frame3mob{
+	display: none;
+	width: 100%;
+	height: auto;
+
+	text-align: center;
+}
+.frame3mob p{
+	margin: 2% 0;
+	font-size: 24px;
+	font-weight: 400;
+}
+.frame3mob .content{
+	text-align: center;
+	margin: auto;
+	width: 80%;
+}
+.frame3mob .content .text1{
+	font-size: 30px;
+	font-weight: 200;
+	margin: 5% 0;
+}
+.commenters{
+	margin: 3% 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.com2{
+	margin: 2% 0;
+	font-weight: 200;
+	width: 60%;
 }
 .frame5{
 	margin: 4% 0;

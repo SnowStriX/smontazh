@@ -3,13 +3,7 @@ window.addEventListener("scroll",function(){
     header.classList.toggle('sticky',window.scrollY > 0);
 })
 
-// back_arrow = document.getElementById('back').onclick = (e) => {
-     
-// }
-// next_arrow = document.getElementById('next').onclick = (e) => {
-    
-// }
-$(function() {
+$(function() { // jquery
 
     current_img = [
         'img/аысысыс1.png',
@@ -21,7 +15,7 @@ $(function() {
 
     let i = 0;
 
-    function highlight(content){
+    function highlight(content){ //выделение индикаторов галлереи
 
         for(j = 0; j < 5; j++){
             $('#' + String(j)).removeClass('active');
@@ -30,7 +24,7 @@ $(function() {
         content.addClass('active');
     }
 
-    $("#next").click(function () {
+    $("#next").click(function () { // конпка вперед
         i++;
         if(i == 5){
             i = 0;
@@ -40,7 +34,7 @@ $(function() {
         highlight(conteiner);
     });
     
-    $("#back").click(function () {
+    $("#back").click(function () { // кнопка назад
         i--;
         if(i < 0){
             i = 4;
@@ -51,3 +45,12 @@ $(function() {
     });
 
 });
+
+var i=0;
+var image=document.getElementById("bar");
+// Добавьте свои картинки в массив через запятую
+var imgs=new Array('bars.svg','Close.svg');
+function imgsrc() {
+    i++;i%=imgs.length;
+    image.src = imgs[i];
+}

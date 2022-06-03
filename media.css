@@ -1,1 +1,65 @@
-@media screen and (max-width:  1441px){
+@media screen and (max-width:  1025px){
+.backside , .backside2{
+	display: none;
+}
+header{
+	padding: 10px 20px;
+
+}
+header li {
+	display: none;
+}
+header.sticky{
+	padding: 5px 48%;
+}
+a.logo img:hover{
+	width: 38px;
+}
+header .logo{
+	padding-top: 20%;
+}
+a.logo img{
+	width: 32px;
+}
+.frame1 h1{
+	font-size: 28px;
+}
+.frame1 p{
+	font-size: 16px;
+}
+.frame3 , .frame4{
+	display: none;
+}
+.frame3mob {
+	display: flex;
+}
+.center .block1 p{
+	font-size: 5px;
+}
+footer{
+	width: 100%;
+	padding: 10%;
+	margin: auto;
+	display: inline-block;
+	height: auto;
+	justify-items: center;
+}
+form{
+	max-width: 100%;
+	display: flex;
+
+}
+.text6 h2{
+	width: auto;
+	border-bottom: 5px solid #EEBF00;
+}
+.text6{
+	padding: 10% 0;
+	width: 100%;
+}
+.frame5mob{
+	display:inline-block;
+}
+.frame5{
+	display: none;
+}

@@ -6,6 +6,18 @@ header{
 	padding: 10px 20px;
 
 }
+header li {
+	display: none;
+}
+header.sticky{
+	padding: 5px 48%;
+}
+a.logo img:hover{
+	width: 38px;
+}
+header .logo{
+	padding-top: 20%;
+}
 a.logo img{
 	width: 32px;
 }

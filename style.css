@@ -24,6 +24,7 @@ header{
 	padding: 30px 100px;
 	z-index: 10000;
 }
+.mob{display: none;}
 header.sticky{
 
 	padding: 5px 100px;

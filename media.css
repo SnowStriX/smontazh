@@ -25,10 +25,29 @@ a.logo img{
 	font-size: 5px;
 }
 footer{
+	width: 100%;
+	padding: 10%;
+	margin: auto;
 	display: inline-block;
-	justify-content: center;
 	height: auto;
+	justify-items: center;
 }
 form{
-	max-width: 540px;
+	max-width: 100%;
+	display: flex;
+
+}
+.text6 h2{
+	width: auto;
+	border-bottom: 5px solid #EEBF00;
+}
+.text6{
+	padding: 10% 0;
+	width: 100%;
+}
+.frame5mob{
+	display:inline-block;
+}
+.frame5{
+	display: none;
 }

@@ -16,7 +16,7 @@ a.logo img:hover{
 	width: 38px;
 }
 header .logo{
-	padding-top: 20%;
+	padding-top: 0;
 }
 a.logo img{
 	width: 32px;
@@ -27,7 +27,7 @@ a.logo img{
 .frame1 p{
 	font-size: 16px;
 }
-.frame3 , .frame4{
+.frame3 , .gallery{
 	display: none;
 }
 .frame3mob {
@@ -62,4 +62,7 @@ form{
 }
 .frame5{
 	display: none;
+}
+.mobile_gallery{
+	display: flex;
 }

@@ -11,18 +11,18 @@
 <header>
 	<a href="#" class="logo"><img src="img/logo2.png" width="52px"></a>
 	<nav>
-		<li><a href="#">Главная</a></li>
-		<li><a href="#2">Услуги</a></li>
-		<li><a href="#3">О нас</a></li>
-		<li><a href="#4">Проекты</a></li>
-		<li><a href="#5">Контакты</a></li>
+		<li><a href="#main">Главная</a></li>
+		<li><a href="#work">Услуги</a></li>
+		<li><a href="#company">О нас</a></li>
+		<li><a href="#project">Проекты</a></li>
+		<li><a href="#contact">Контакты</a></li>
 	</nav>
 </header>
-<div class="frame1">
+<div class="frame1" id="main">
 	<h1>Мы строим мечты</h1>
 	<p>ваш лучший партнер по строительству и инженерным системам</p>
 </div>
-<div class="frame2" id="2">
+<div class="frame2" id="work">
 	<h2 class="heading">Работы</h2>
 	<p>реализуем любые по сложности проекты</p>
 	<div class="conteiner">
@@ -37,7 +37,7 @@
 	</div>
 </div>
 <div class="backside"></div>
-<div class="frame3" id="3">
+<div class="frame3" id="company">
 	<div class="content">
 		<h3>О компании</h3>
 		<p class="heading2">СервисМонтаж</p>
@@ -87,7 +87,7 @@
 		<div class="block2" style="height:auto;"><img src="img/mob/mob2.svg"><p style="color:#fff;">В результате мы максимально оптимизируем затраты наших клиентов, включая материальные моральные и временные</p></div>
 	</div>
 </div>
-<div class="frame4" id="4">
+<div class="frame4" id="project">
 	<h2>Наши проекты</h2>
 	<div class="gallery">
 		<div class="1st_line" style="height: 32%; display: flex; justify-content: space-between;">
@@ -104,8 +104,24 @@
 			<div class="main_img" style="background-image: url(img/аысысыс\ 1.png); background-size: cover; border-bottom-right-radius: 70px;"></div>
 		</div>
 	</div>
+
+	<div class="mobile_gallery">
+		<div class="arrows">
+			<div id="back" class="arrow" style=" transform: rotate(-90deg);"></div>
+			<div id="next" class="arrow" style=" transform: rotate(90deg);"></div>
+		</div>
+
+		<div style="display: flex; justify-content: center; margin-top: auto;">
+			<div class="indicator active" id="0"></div>
+			<div class="indicator" id="1"></div>
+			<div class="indicator" id="2"></div>
+			<div class="indicator" id="3"></div>
+			<div class="indicator" id="4"></div>
+		</div>
+	</div>
 </div>
-<footer id="5">
+
+<footer id="contact">
 	<div class="text6">
 		<h4 id="4">Контакты</h4>
 		<p>Башня Федерация, ул. Пресненская наб. 12 Москва, 103073, Россия </p>
@@ -124,5 +140,6 @@
 </footer>
 </body>
 
+<script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/index.js"></script>
 </html>
